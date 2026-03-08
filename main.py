@@ -2,7 +2,6 @@ import sys, os
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QMovie
 from PySide6.QtWidgets import QApplication, QLabel
-import sys, os
 if getattr(sys, 'frozen', False):
     BASE = sys._MEIPASS
 else:
